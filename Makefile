@@ -3,7 +3,7 @@ include $(TOPDIR)/rules.mk
 PKG_NAME:=luci-app-mentohust
 PKG_VERSION=1.1.1
 PKG_RELEASE:=0
-
+LUCI_DEPENDS:=mentohust
 PKG_BUILD_DIR:=$(BUILD_DIR)/$(PKG_NAME)
 
 include $(INCLUDE_DIR)/package.mk
